@@ -37,7 +37,7 @@ public class DataSendService {
         // пока есть данные в очеерди сервиса хранения
         for(PointDTO point: dataSaveService.saveQueue){
             // Передаем данные точки на сервер
-            System.out.println("Сервис передачи отправляет на сервер сообщение: " + dataSaveService.saveQueue.poll().toJson());
+            log.info("Сервис передачи отправляет на сервер: " + dataSaveService.saveQueue.poll().toJson());
             }
         System.out.println("=====================================");
     }
