@@ -1,13 +1,9 @@
 package jdev.tracker;
 
 import jdev.dto.PointDTO;
-import jdev.tracker.service.GpsService;
-import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.*;
 
 /**
